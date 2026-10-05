@@ -8,6 +8,12 @@ Persoonlijke verzameling Claude Code skills, zodat ze met één commando op elk 
 npx skills@latest add loekwesterhof/claude-skills -g -y --all
 ```
 
+Marketing-skills (50 stuks, Corey Haines) staan in een eigen repo en worden apart geïnstalleerd:
+
+```bash
+npx skills@latest add coreyhaines31/marketingskills -g -y --all
+```
+
 ## Bijwerken
 
 ```bash
