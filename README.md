@@ -8,6 +8,8 @@ Persoonlijke verzameling Claude Code skills, zodat ze met één commando op elk 
 npx skills@latest add loekwesterhof/claude-skills -g -y --all
 ```
 
+Ponytail-skills staan op handmatig (`disable-model-invocation: true`): aanroepen met `/ponytail` enz. De `skill-router` suggereert wanneer dat handig is.
+
 ## Bijwerken
 
 ```bash
@@ -20,6 +22,7 @@ npx skills@latest update -g
 - **ComposioHQ document/artifact-tools** (artifacts-builder, brand-guidelines, canvas-design, theme-factory) — bron: [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 - **Corey Haines marketingskills** (50 skills: copywriting, seo-audit, cro, pricing, cold-email, ads, enz.) — bron: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), MIT-licentie in `licenses/`
 - **Ponytail** (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review — minimalistisch coderen/over-engineering reviewen) — bron: [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail), MIT-licentie in `licenses/`
+- **skill-router** (eigen) — adviseert per project/prompt welke skills passen en welke handmatige skills (ponytail*, prototype, pick-ui-library, review-animations) je moet aanzetten
 - **Andrej Karpathy** (karpathy-guidelines) — bron: [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
 
 ## Niet in dit repo

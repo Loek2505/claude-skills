@@ -1,8 +1,10 @@
 ---
 name: ponytail-help
-description: "Quick reference for ponytail's modes, skills, and commands. One-shot display."
-homepage: https://github.com/DietrichGebert/ponytail
-license: MIT
+disable-model-invocation: true
+description: >
+  Quick-reference card for all ponytail modes, skills, and commands.
+  One-shot display, not a persistent mode. Trigger: /ponytail-help,
+  "ponytail help", "what ponytail commands", "how do I use ponytail".
 ---
 
 # Ponytail Help
