@@ -8,12 +8,6 @@ Persoonlijke verzameling Claude Code skills, zodat ze met één commando op elk 
 npx skills@latest add loekwesterhof/claude-skills -g -y --all
 ```
 
-Marketing-skills (50 stuks, Corey Haines) staan in een eigen repo en worden apart geïnstalleerd:
-
-```bash
-npx skills@latest add coreyhaines31/marketingskills -g -y --all
-```
-
 ## Bijwerken
 
 ```bash
@@ -24,6 +18,7 @@ npx skills@latest update -g
 
 - **Emil Kowalski** (animate, animate-expo, animation-vocabulary, apple-design, ask-sonner, emil-design-eng, find-animation-opportunities, improve-animations, pick-ui-library, prototype, review-animations, write-swift) — bron: [emilkowalski/skills](https://github.com/emilkowalski/skills)
 - **ComposioHQ document/artifact-tools** (artifacts-builder, brand-guidelines, canvas-design, theme-factory) — bron: [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+- **Corey Haines marketingskills** (50 skills: copywriting, seo-audit, cro, pricing, cold-email, ads, enz.) — bron: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), MIT-licentie in `licenses/`
 - **Andrej Karpathy** (karpathy-guidelines) — bron: [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
 
 ## Niet in dit repo
