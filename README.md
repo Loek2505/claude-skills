@@ -5,7 +5,7 @@ Persoonlijke verzameling Claude Code skills, zodat ze met één commando op elk 
 ## Installeren (op elk nieuw device)
 
 ```bash
-npx skills@latest add loekwesterhof/claude-skills -g -y --all
+npx skills@latest add Loek2505/claude-skills -g -y --all
 ```
 
 Ponytail-skills staan op handmatig (`disable-model-invocation: true`): aanroepen met `/ponytail` enz. De `skill-router` suggereert wanneer dat handig is.
