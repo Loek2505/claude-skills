@@ -23,6 +23,12 @@ npx skills@latest update -g
 - `disable-model-invocation: true` op alle ponytail-skills en de app/SaaS-skills uit het overzicht hieronder
 - de beschrijving van `emil-design-eng` (met "Use when …")
 
+## Automatische controle
+
+Bij elke pull request en elke push naar `main` draait `scripts/check_skills.py` (zie het tabblad *Actions*). De controle mislukt bij ontbrekende of foute frontmatter, kapotte links, ongeldige JSON en iets dat op een geheime sleutel lijkt. Omdat deze repo openbaar is, mislukt hij ook bij telefoonnummers en bij e-mailadressen van persoonlijke maildiensten of .nl-domeinen. Lange skills en vage beschrijvingen worden alleen als waarschuwing gemeld.
+
+Lokaal draaien: `python3 scripts/check_skills.py --public`
+
 ## Inhoud
 
 - **Emil Kowalski** (animate, animate-expo, animation-performance, animation-vocabulary, apple-design, ask-sonner, break-ui, emil-design-eng, find-animation-opportunities, improve-animations, mobile-native, pick-ui-library, prototype, review-animations, write-swift) — bron: [emilkowalski/skills](https://github.com/emilkowalski/skills), MIT-licentie in `licenses/`
