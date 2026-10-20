@@ -76,6 +76,6 @@ Veel marketingskills zijn gericht op SaaS en consumentenapps (`aso`, `paywalls`,
 ## Gecontroleerd zonder bevindingen
 - Alle 75 mappen hebben een `SKILL.md` met geldige frontmatter, en `name` is gelijk aan de mapnaam.
 - Alle 50 `evals/evals.json` zijn geldige JSON.
-- Verwijzingen naar `references/`-bestanden van andere skills (zoals `ads/references/conversion-tracking.md`) bestaan allemaal.
+- Verwijzingen naar `references/`-bestanden van andere skills (zoals `social/references/listening.md`) bestaan allemaal.
 - Links als `/features/analytics` en `[Terms](link)` zijn voorbeeldtekst, geen kapotte links.
 - De telling in de README (50 marketingskills) klopt.

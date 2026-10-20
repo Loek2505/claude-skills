@@ -138,9 +138,9 @@ Link building works as a weekly habit more than a campaign. The **marketing-loop
 
 | Need | Tools |
 |---|---|
-| Backlink data, link gap, competitor links | [Ahrefs](../../tools/integrations/ahrefs.md), [Semrush](../../tools/integrations/semrush.md), [DataForSEO](../../tools/integrations/dataforseo.md), Moz |
-| Finding prospects and mentions | Search operators, [Exa](../../tools/integrations/exa.md), [Firecrawl](../../tools/integrations/firecrawl.md), Google Alerts, mention monitors |
-| Finding the contact | [Hunter](../../tools/integrations/hunter.md), the site's own about or contact page |
+| Backlink data, link gap, competitor links | [Ahrefs](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/ahrefs.md), [Semrush](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/semrush.md), [DataForSEO](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/dataforseo.md), Moz |
+| Finding prospects and mentions | Search operators, [Exa](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/exa.md), [Firecrawl](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/firecrawl.md), Google Alerts, mention monitors |
+| Finding the contact | [Hunter](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hunter.md), the site's own about or contact page |
 | Done-for-you placements | Managed placement services such as [LinkDR](https://linkdr.com) source sites, pitch editors, and confirm links go live. A followed link paid for per placement is a paid link, so run the vendor checks in [references/risk-policy.md](references/risk-policy.md) first |
 | Free fallback | Search Console's Links report for your own links; search operators for prospects |
 
