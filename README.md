@@ -8,7 +8,7 @@ Persoonlijke verzameling Claude Code skills, zodat ze met één commando op elk 
 npx skills@latest add Loek2505/claude-skills -g -y --all
 ```
 
-Ponytail-skills staan op handmatig (`disable-model-invocation: true`): aanroepen met `/ponytail` enz. De `skill-router` suggereert wanneer dat handig is.
+Een deel van de skills staat op handmatig (`disable-model-invocation: true`): Ponytail, een paar design-skills en de app/SaaS-skills. Claude kiest die niet zelf, en hun beschrijving kost dus geen tokens per prompt. Aanroepen met `/naam`, bijvoorbeeld `/ponytail` of `/aso`. De `skill-router` suggereert wanneer dat handig is.
 
 ## Bijwerken
 
@@ -16,21 +16,28 @@ Ponytail-skills staan op handmatig (`disable-model-invocation: true`): aanroepen
 npx skills@latest update -g
 ```
 
+## Bijwerken vanuit de bronnen
+
+`npx skills update` haalt de skills uit déze repo, niet uit de bronnen. Bij een update vanuit een bron (laatst: 20 okt 2026) moeten deze eigen aanpassingen terug:
+
+- `disable-model-invocation: true` op alle ponytail-skills en de app/SaaS-skills uit het overzicht hieronder
+- de beschrijving van `emil-design-eng` (met "Use when …")
+
 ## Inhoud
 
-- **Emil Kowalski** (animate, animate-expo, animation-vocabulary, apple-design, ask-sonner, emil-design-eng, find-animation-opportunities, improve-animations, pick-ui-library, prototype, review-animations, write-swift) — bron: [emilkowalski/skills](https://github.com/emilkowalski/skills), MIT-licentie in `licenses/`
+- **Emil Kowalski** (animate, animate-expo, animation-performance, animation-vocabulary, apple-design, ask-sonner, break-ui, emil-design-eng, find-animation-opportunities, improve-animations, mobile-native, pick-ui-library, prototype, review-animations, write-swift) — bron: [emilkowalski/skills](https://github.com/emilkowalski/skills), MIT-licentie in `licenses/`
 - **ComposioHQ document/artifact-tools** (artifacts-builder, brand-guidelines, canvas-design, theme-factory) — bron: [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
-- **Corey Haines marketingskills** (50 skills: copywriting, seo-audit, cro, pricing, cold-email, ads, enz.) — bron: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), MIT-licentie in `licenses/`
+- **Corey Haines marketingskills** (52 skills: copywriting, seo-audit, cro, pricing, cold-email, ads, link-building, enz.) — bron: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), MIT-licentie in `licenses/`
 - **Ponytail** (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review — minimalistisch coderen/over-engineering reviewen) — bron: [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail), MIT-licentie in `licenses/`
-- **skill-router** (eigen) — adviseert per project/prompt welke skills passen en welke handmatige skills (ponytail*, prototype, pick-ui-library, review-animations) je moet aanzetten
+- **skill-router** (eigen) — adviseert per project/prompt welke skills passen en welke handmatige skills je moet aanzetten
 - **Andrej Karpathy** (karpathy-guidelines) — bron: [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
 
-## Overzicht (75 skills)
+## Overzicht (79 skills)
 
 | Groep | Aantal | Start |
 |---|---|---|
-| Marketing (Corey Haines) | 50 | Automatisch |
-| Design en animatie (Emil Kowalski) | 12 | Automatisch, behalve `prototype`, `pick-ui-library` en `review-animations` (handmatig) |
+| Marketing (Corey Haines) | 52 | Automatisch, behalve 13 app/SaaS-skills (handmatig): `aso`, `signup`, `onboarding`, `paywalls`, `popups`, `churn-prevention`, `referrals`, `launch`, `free-tools`, `programmatic-seo`, `directory-submissions`, `influencer-marketing`, `sms` |
+| Design en animatie (Emil Kowalski) | 15 | Automatisch, behalve `prototype`, `pick-ui-library`, `review-animations`, `write-swift` en `animate-expo` (handmatig) |
 | Documenten en artifacts (ComposioHQ) | 4 | Automatisch |
 | Ponytail | 6 | Handmatig |
 | Karpathy-richtlijnen | 1 | Automatisch |
