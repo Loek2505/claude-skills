@@ -25,6 +25,19 @@ npx skills@latest update -g
 - **skill-router** (eigen) — adviseert per project/prompt welke skills passen en welke handmatige skills (ponytail*, prototype, pick-ui-library, review-animations) je moet aanzetten
 - **Andrej Karpathy** (karpathy-guidelines) — bron: [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
 
+## Overzicht (75 skills)
+
+| Groep | Aantal | Start |
+|---|---|---|
+| Marketing (Corey Haines) | 50 | Automatisch |
+| Design en animatie (Emil Kowalski) | 12 | Automatisch, behalve `prototype`, `pick-ui-library` en `review-animations` (handmatig) |
+| Documenten en artifacts (ComposioHQ) | 4 | Automatisch |
+| Ponytail | 6 | Handmatig |
+| Karpathy-richtlijnen | 1 | Automatisch |
+| skill-router (eigen) | 1 | Automatisch |
+
+Laatste controle en verbetervoorstellen: zie [`AUDIT.md`](AUDIT.md).
+
 ## Niet in dit repo
 
 - **Composio `connect-apps` MCP-server** — bevat een persoonlijke API-key en moet per device apart worden opgezet met `claude mcp add`.
