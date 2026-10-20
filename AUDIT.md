@@ -17,7 +17,7 @@ Wat mechanisch te repareren was, is gerepareerd (zie [Uitgevoerd](#uitgevoerd)).
 - Geen API-keys, tokens, wachtwoorden of privésleutels gevonden.
 - Geen gegevens over Loek, SW Vastgoedverbetering, Saxion of corporaties in de skills.
 - De enige e-mailadressen in bestanden zijn die van font-ontwerpers in de OFL-licenties van `canvas-design`. Die horen daar.
-- **Let op:** de commits staan op naam van `loek.westerhof@gmail.com`, en dat adres is zichtbaar voor iedereen die de geschiedenis bekijkt. Wil je dat niet, zet dan in GitHub *Settings → Emails* "Keep my email addresses private" aan en gebruik voortaan het `@users.noreply.github.com`-adres.
+- **Let op:** de commits staan op naam van je persoonlijke Gmail-adres, en dat is zichtbaar voor iedereen die de geschiedenis bekijkt. Wil je dat niet, zet dan in GitHub *Settings → Emails* "Keep my email addresses private" aan en gebruik voortaan het `@users.noreply.github.com`-adres.
 
 ## Licenties
 
