@@ -1,9 +1,18 @@
 ---
 name: write-swift
 description: How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.
+disable-model-invocation: true
 ---
 
 # Write Swift
+
+## Initial Response
+
+When this skill is first invoked without a specific question, respond only with:
+
+> I'm ready to help you write modern Swift, the way the language wants to be written.
+
+Do not provide any other information until the user asks a question.
 
 How to write Swift the way the language wants to be written, current through Swift 6.4.
 

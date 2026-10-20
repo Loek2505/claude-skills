@@ -64,8 +64,8 @@ Voorstel: bij `emil-design-eng` de lange voorbeeldsecties naar een `references/`
 ### 5. `review-animations`-beschrijving (prioriteit: laag)
 Kort en zonder "Use when". De skill staat op handmatig (`/review-animations`), dus het werkt; alleen `skill-router` leunt op de beschrijving. Niet aangepast omdat het geen probleem geeft.
 
-### 6. Skills voor apps en SaaS — besloten: laten staan
-Kunnen later nog van pas komen. Wie per project minder ruis wil, kan de project-install uit `skill-router` gebruiken.
+### 6. Skills voor apps en SaaS — besloten: laten staan, maar op handmatig (20 okt 2026)
+De skills blijven in de repo, want ze kunnen later van pas komen. Sinds 20 oktober staan 15 ervan op handmatig (zie README), zodat hun beschrijving niet bij elke prompt geladen wordt. Dat scheelt ongeveer 2.400 tokens per prompt. Aanroepen met `/naam`.
 
 <details><summary>Oorspronkelijke analyse</summary>
 
@@ -76,6 +76,6 @@ Veel marketingskills zijn gericht op SaaS en consumentenapps (`aso`, `paywalls`,
 ## Gecontroleerd zonder bevindingen
 - Alle 75 mappen hebben een `SKILL.md` met geldige frontmatter, en `name` is gelijk aan de mapnaam.
 - Alle 50 `evals/evals.json` zijn geldige JSON.
-- Verwijzingen naar `references/`-bestanden van andere skills (zoals `ads/references/conversion-tracking.md`) bestaan allemaal.
+- Verwijzingen naar `references/`-bestanden van andere skills (zoals `social/references/listening.md`) bestaan allemaal.
 - Links als `/features/analytics` en `[Terms](link)` zijn voorbeeldtekst, geen kapotte links.
 - De telling in de README (50 marketingskills) klopt.
