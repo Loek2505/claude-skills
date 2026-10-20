@@ -31,18 +31,18 @@ Wat mechanisch te repareren was, is gerepareerd (zie [Uitgevoerd](#uitgevoerd)).
 
 ## Voorstellen
 
-### 1. `brand-guidelines` verwijderen of vervangen (prioriteit: hoog)
-Deze skill past de huisstijl van **Anthropic** toe (kleuren, lettertypen) en start automatisch bij woorden als "brand colors" of "company design standards". Voor werk voor SW kan dat de verkeerde huisstijl opleveren. Voorstel: verwijderen, of herschrijven met de huisstijl van SW Vastgoedverbetering. Bewaar die dan wel in een privérepo als de huisstijl niet openbaar mag.
+### 1. `brand-guidelines` — besloten: laten staan
+Niet elk project hoeft in de stijl van SW. De skill blijft zoals hij is.
 
-### 2. Dubbel geïnstalleerde skills (prioriteit: middel)
-De skills van Emil Kowalski (`animate`, `apple-design`, `prototype` enz.) staan in Claude ook al als `anthropic-skills:*`. Twee kopieën met dezelfde beschrijving maken het voor Claude onduidelijk welke gekozen wordt, en ze kunnen uit elkaar gaan lopen. Voorstel: houd één bron aan.
+### 2. Dubbel geïnstalleerde skills — besloten: opruimen zonder functionaliteit te verliezen
+**Emil Kowalski-skills (12 stuks).** Deze staan zowel in deze repo als in het claude.ai-account (als plugin). Vergelijking per bestand: de accountversies zijn **ouder en korter**. Voorbeelden: `apple-design` 154 vs 282 regels, `write-swift` 238 vs 388. Bij `animate`, `animate-expo`, `ask-sonner`, `improve-animations`, `prototype` en `review-animations` ontbreken in het account de hulpbestanden (`RECIPES.md`, `API.md`, `AUDIT.md`, `PLAN-TEMPLATE.md`, `PICKER.md`, `STANDARDS.md`).
+- **Actie:** de repo blijft de bron. Vervang in claude.ai de oude versies door die uit deze repo. Haal er niets uit de repo weg, want dan gaat juist de complete versie verloren.
 
-Hetzelfde geldt voor de geïnstalleerde plugins:
-- `seo-audit`, `schema`, `ai-seo`, `content-strategy` ↔ plugin `searchfit-seo` (seo-audit, schema-markup, ai-visibility, content-strategy)
-- `cold-email`, `prospecting`, `sales-enablement` ↔ plugin `sales` (draft-outreach, account-research, create-an-asset)
-- `emails`, `copywriting`, `competitors` ↔ plugin `marketing` (email-sequence, draft-content, competitive-brief)
-
-Voorstel: kies per onderwerp één skill. De marketingskills uit deze repo zijn meestal uitgebreider; de plugins zijn gekoppeld aan tools zoals de CRM.
+**Plugins (`searchfit-seo`, `marketing`, `sales`).** Deze overlappen met marketingskills uit de repo, maar elk heeft functies die de ander mist:
+- `searchfit-seo` heeft `broken-links`, `keyword-clustering` en `content-translation`; de repo niet.
+- `sales` en `marketing` werken met gekoppelde tools (CRM, mail, agenda); de repo-skills niet.
+- De repo-skills zijn inhoudelijk uitgebreider (playbooks, `references/`).
+- **Actie:** niets verwijderen. Dat zou functionaliteit kosten.
 
 ### 3. Overlap binnen de repo (prioriteit: laag)
 Deze paren zijn bewust gescheiden en verwijzen al naar elkaar. Samenvoegen is **niet** nodig, maar weet dat ze tegelijk kunnen starten:
@@ -64,8 +64,14 @@ Voorstel: bij `emil-design-eng` de lange voorbeeldsecties naar een `references/`
 ### 5. `review-animations`-beschrijving (prioriteit: laag)
 Kort en zonder "Use when". De skill staat op handmatig (`/review-animations`), dus het werkt; alleen `skill-router` leunt op de beschrijving. Niet aangepast omdat het geen probleem geeft.
 
-### 6. Relevantie voor jouw werk (prioriteit: ter overweging)
+### 6. Skills voor apps en SaaS — besloten: laten staan
+Kunnen later nog van pas komen. Wie per project minder ruis wil, kan de project-install uit `skill-router` gebruiken.
+
+<details><summary>Oorspronkelijke analyse</summary>
+
 Veel marketingskills zijn gericht op SaaS en consumentenapps (`aso`, `paywalls`, `popups`, `signup`, `churn-prevention`, `sms`, `directory-submissions`, `influencer-marketing`). Voor B2B-werk richting woningcorporaties zijn vooral `cold-email`, `prospecting`, `customer-research`, `events`, `product-marketing`, `marketing-psychology` en `sales-enablement` nuttig. De rest uitzetten scheelt ruis bij het kiezen van skills. Dat kan per project met de project-install uit `skill-router`, zonder iets uit de repo te halen.
+
+</details>
 
 ## Gecontroleerd zonder bevindingen
 - Alle 75 mappen hebben een `SKILL.md` met geldige frontmatter, en `name` is gelijk aan de mapnaam.
